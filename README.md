@@ -14,7 +14,7 @@
 
 [![GitHub followers](https://img.shields.io/github/followers/RROliSil?label=Followers&style=for-the-badge&color=25D366&logo=github)](https://github.com/RROliSil)
 [![Google Play](https://img.shields.io/badge/Google_Play-Developer-34A853?style=for-the-badge&logo=google-play&logoColor=white)](https://play.google.com/store/apps/details?id=com.flappyfrog.game)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](https://github.com/RROliSil/flappyfrog)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](#)
 
 </div>
 
@@ -24,7 +24,7 @@
 
 <table align="center" width="100%">
   <tr>
-    <td width="58%" valign="top">
+    <td width="55%" valign="top">
       <h3>🎮 Rogue Frog - Roguelike Arcade Mobile</h3>
       <p>
         Um jogo arcade dinâmico e desafiador para Android que une a precisão clássica de desvio com mecânicas modernas de <b>Roguelike</b>, evolução de habilidades, biomas dinâmicos e batalhas épicas contra chefes!
@@ -40,14 +40,11 @@
         <a href="https://play.google.com/store/apps/details?id=com.flappyfrog.game">
           <img src="https://img.shields.io/badge/Baixar_no-Google_Play-green?style=for-the-badge&logo=google-play&logoColor=white" alt="Play Store" />
         </a>
-        <a href="https://github.com/RROliSil/flappyfrog">
-          <img src="https://img.shields.io/badge/Ver_C%C3%B3digo-Reposit%C3%B3rio-181717?style=for-the-badge&logo=github&logoColor=white" alt="Repositório" />
-        </a>
       </p>
     </td>
-    <td width="42%" align="center" valign="middle">
+    <td width="45%" align="center" valign="middle">
       <a href="https://play.google.com/store/apps/details?id=com.flappyfrog.game">
-        <img src="https://raw.githubusercontent.com/RROliSil/RROliSil/main/assets/feature-graphic.png" width="100%" alt="Rogue Frog Banner" />
+        <img src="https://raw.githubusercontent.com/RROliSil/RROliSil/main/assets/PrintBanner2.png" width="100%" alt="Rogue Frog Banner" />
       </a>
     </td>
   </tr>
