@@ -1,7 +1,9 @@
 <div align="center">
 
-<!-- Header Banner com Onda Gradiente -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=10,18,24&height=220&section=header&text=Rafael%20%7C%20RROliSil&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=38&desc=Indie%20Game%20Developer%20%26%20Software%20Engineer&descAlignY=62&descAlign=50" width="100%" alt="Rafael Header Banner" />
+<!-- Header Banner Animado -->
+<img src="https://raw.githubusercontent.com/RROliSil/RROliSil/main/assets/header.svg" width="100%" alt="Rafael Header Banner" />
+
+<br/><br/>
 
 <!-- Efeito de Digitação Animado -->
 <a href="https://git.io/typing-svg">
@@ -12,7 +14,7 @@
 
 [![GitHub followers](https://img.shields.io/github/followers/RROliSil?label=Followers&style=for-the-badge&color=25D366&logo=github)](https://github.com/RROliSil)
 [![Google Play](https://img.shields.io/badge/Google_Play-Developer-34A853?style=for-the-badge&logo=google-play&logoColor=white)](https://play.google.com/store/apps/details?id=com.flappyfrog.game)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](https://github.com/RROliSil/flappyfrog)
 
 </div>
 
@@ -22,7 +24,7 @@
 
 <table align="center" width="100%">
   <tr>
-    <td width="60%">
+    <td width="58%" valign="top">
       <h3>🎮 Rogue Frog - Roguelike Arcade Mobile</h3>
       <p>
         Um jogo arcade dinâmico e desafiador para Android que une a precisão clássica de desvio com mecânicas modernas de <b>Roguelike</b>, evolução de habilidades, biomas dinâmicos e batalhas épicas contra chefes!
@@ -43,8 +45,10 @@
         </a>
       </p>
     </td>
-    <td width="40%" align="center">
-      <img src="https://raw.githubusercontent.com/RROliSil/flappyfrog/main/assets/playstore/feature-graphic.png" width="95%" style="border-radius: 12px; box-shadow: 0 4px 15px rgba(0,255,100,0.2);" alt="Rogue Frog Banner" onerror="this.src='https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=10,24&height=180&text=Rogue%20Frog%20%F0%9F%90%B8&fontSize=30&fontColor=fff'" />
+    <td width="42%" align="center" valign="middle">
+      <a href="https://play.google.com/store/apps/details?id=com.flappyfrog.game">
+        <img src="https://raw.githubusercontent.com/RROliSil/RROliSil/main/assets/feature-graphic.png" width="100%" alt="Rogue Frog Banner" />
+      </a>
     </td>
   </tr>
 </table>
@@ -82,7 +86,7 @@
 <div align="center">
 
 <!-- Footer Wave Animado -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=10,18,24&height=120&section=footer" width="100%" alt="Footer Wave" />
+<img src="https://raw.githubusercontent.com/RROliSil/RROliSil/main/assets/footer.svg" width="100%" alt="Footer Wave" />
 
 <p><i>"O sucesso no desenvolvimento de jogos é a soma de pequenos saltos repetidos todos os dias." 🐸🚀</i></p>
 
