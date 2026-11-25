@@ -7,7 +7,7 @@
 
 <!-- Efeito de Digitação Animado -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=25D366&center=true&vCenter=true&width=640&lines=Full-Stack+Developer+(React+%2B+Node.js+%2B+TypeScript);%F0%9F%9A%80+Criador+do+Regz+App+(SaaS+Multi-Tenant+24%2F7);%F0%9F%90%B8+Criador+do+Rogue+Frog+(Android+%2F+Google+Play);%E2%98%81%EF%B8%8F+Sistemas+Cloud-Native%2C+APIs+REST+%26+Multi-Banco" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&pause=1000&color=25D366&center=true&vCenter=true&width=580&lines=Full-Stack+Developer+(React+%2B+Node+%2B+TS);%F0%9F%9A%80+Criador+do+Regz+App+(SaaS+24%2F7);%F0%9F%90%B8+Criador+do+Rogue+Frog+(Android);%E2%98%81%EF%B8%8F+Sistemas+Cloud%2C+APIs+%26+Multi-Banco" alt="Typing SVG" />
 </a>
 
 <br/><br/>
@@ -27,98 +27,109 @@
 <!-- ========================================================= -->
 <!-- CARD 1 (DESTAQUE PRINCIPAL): REGZ APP                     -->
 <!-- ========================================================= -->
-<details>
-<summary>
-  <img src="https://raw.githubusercontent.com/RROliSil/regz/main/frontend/public/logo.png" width="28" align="absmiddle" alt="Regz App Logo" />
-  &nbsp;<strong>Regz App — Plataforma SaaS de Gestão de Pessoas & Portal de Colaboradores</strong>
-  <br/>
-  Sistema Full-Stack Multi-Tenant e Multi-Banco em produção 24/7 na nuvem.
-  <br/>
-  <img src="https://img.shields.io/badge/React_18-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React 18" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Node.js_%2B_Express-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/PostgreSQL_SSL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/Status-Online_24%2F7-10b981?style=flat-square" alt="Online 24/7" />
-  <br/>
-  <sub><i>🔽 Clique para abrir as descrições detalhadas</i></sub>
-</summary>
+<table width="100%">
+  <tr>
+    <td>
+      <details>
+        <summary>
+          <img src="https://raw.githubusercontent.com/RROliSil/regz/main/frontend/public/logo.png" width="32" align="absmiddle" alt="Regz App Logo" />
+          &nbsp;<strong>Regz App — Plataforma SaaS de Gestão de Pessoas & Portal de Colaboradores</strong>
+          <br/><br/>
+          Sistema Full-Stack Multi-Tenant e Multi-Banco em produção 24/7 na nuvem (Render + Supabase PostgreSQL SSL).
+          <br/><br/>
+          <img src="https://img.shields.io/badge/React_18-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React 18" />
+          <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+          <img src="https://img.shields.io/badge/Node.js_%2B_Express-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" />
+          <img src="https://img.shields.io/badge/PostgreSQL_SSL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+          <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+          <img src="https://img.shields.io/badge/Online_24%2F7-10b981?style=flat-square" alt="Online 24/7" />
+          <img src="https://img.shields.io/badge/%F0%9F%94%BD_Ver_detalhes_completos-1E293B?style=flat-square" alt="Ver detalhes" />
+        </summary>
+        <br/>
+        <hr/>
+        <p>
+          O <b>Regz</b> é uma plataforma corporativa completa para Gestão de Pessoas, governança de acessos e emissão de relatórios executivos — projetada de ponta a ponta com arquitetura <b>Cloud-Native 24/7</b> (Render + Supabase PostgreSQL SSL em São Paulo <code>sa-east-1</code>).
+        </p>
+        <h4>💻 Engenharia de Frontend (<code>React 18 + Vite + TypeScript</code>)</h4>
+        <ul>
+          <li><b>Portal de Colaboradores:</b> CRUD com Soft Delete, validação de CPF, preenchimento automático de endereço via <b>ViaCEP</b>, geocodificação GPS (<b>OpenStreetMap Nominatim + Google Maps</b>), compressão de fotos no navegador (~25KB Base64) + Lightbox e <b>Crachá Digital com QR Code 2D</b> (download PNG e impressão).</li>
+          <li><b>Validação Oficial CBO (MTE / eSocial):</b> catálogo oficial com busca por código, título ou sinônimos de mercado e normalização automática.</li>
+          <li><b>Campos Dinâmicos Sem Alterar Schema (EAV):</b> criação de campos customizados (Numérico, Texto, Seleção e Sim/Não) com regras min/max e preservação de histórico.</li>
+          <li><b>Relatórios & PDF Vetorial Nativo:</b> construtor livre por chips, 3 modos analíticos (Construtor, Geográfico e RBAC), modelos salvos, exportação <b>Excel CSV UTF-8 (BOM)</b> e pré-visualização de <b>PDF vetorial (<code>jsPDF</code>)</b> com alternância Retrato/Paisagem.</li>
+          <li><b>UX, Acessibilidade & PWA:</b> 3 temas sincronizados (Deep Indigo, Claro e Escuro), colunas redimensionáveis persistidas em <code>localStorage</code>, Central de Acessibilidade Visual (<code>Alt + A</code>) com <b>Síntese de Voz (TTS pt-BR)</b>, Service Worker e Open Graph dinâmico.</li>
+        </ul>
+        <h4>⚙️ Engenharia de Backend & Multi-Banco (<code>Node.js + Express + PostgreSQL</code>)</h4>
+        <ul>
+          <li><b>50+ Endpoints REST & Segurança:</b> autenticação <b>JWT</b>, criptografia <b>bcrypt</b>, middleware granular <b>RBAC</b> (Leitura/Escrita/Sem Acesso), proteção contra força bruta (<code>HTTP 429</code> após 5 falhas) e trilha completa de <b>Logs de Auditoria</b> em <code>JSONB</code>.</li>
+          <li><b>Multi-Tenancy & Roteamento Multi-Banco Online:</b> isolamento por <code>empresa_id</code>, cache dinâmico de pools por cliente (<code>getPoolForEmpresa</code>) e testador/provisionador para <b>PostgreSQL, MySQL/MariaDB, MongoDB Atlas e SQL Server</b> via Connection String (URI) com SSL/TLS automático.</li>
+          <li><b>Resiliência 24/7:</b> build Docker multi-stage unificado, inicialização com retry (<code>initDbWithRetry</code>) e <code>UNNEST</code> batching em 10 tabelas relacionais.</li>
+        </ul>
+        <p>
+          <a href="https://regz-app.onrender.com/Regz">
+            <img src="https://img.shields.io/badge/Acessar_Sistema_Online-24%2F7-10b981?style=for-the-badge&logo=render&logoColor=white" alt="Acessar Online" />
+          </a>
+          <a href="https://github.com/RROliSil/regz">
+            <img src="https://img.shields.io/badge/Ver_Repositório-RROliSil%2Fregz-6366F1?style=for-the-badge&logo=github&logoColor=white" alt="Repositório Regz" />
+          </a>
+          <a href="https://github.com/RROliSil/regz/blob/main/README.en.md">
+            <img src="https://img.shields.io/badge/Docs-English-0EA5E9?style=for-the-badge" alt="English Docs" />
+          </a>
+        </p>
+      </details>
+    </td>
+  </tr>
+</table>
 
 <br/>
-
-> O **Regz** é uma plataforma corporativa completa para Gestão de Pessoas, governança de acessos e emissão de relatórios executivos — projetada de ponta a ponta com arquitetura **Cloud-Native 24/7** (Render + Supabase PostgreSQL SSL em São Paulo `sa-east-1`).
-
-#### 💻 Engenharia de Frontend (`React 18 + Vite + TypeScript`)
-- **Portal de Colaboradores:** CRUD com Soft Delete, validação de CPF, preenchimento automático de endereço via **ViaCEP**, geocodificação GPS (**OpenStreetMap Nominatim + Google Maps**), compressão de fotos no navegador (~25KB Base64) + Lightbox e **Crachá Digital com QR Code 2D** (download PNG e impressão).
-- **Validação Oficial CBO (MTE / eSocial):** catálogo oficial com busca por código, título ou sinônimos de mercado e normalização automática.
-- **Campos Dinâmicos Sem Alterar Schema (EAV):** criação de campos customizados (Numérico, Texto, Seleção e Sim/Não) com regras min/max e preservação de histórico.
-- **Relatórios & PDF Vetorial Nativo:** construtor livre por chips, 3 modos analíticos (Construtor, Geográfico e RBAC), modelos salvos, exportação **Excel CSV UTF-8 (BOM)** e pré-visualização de **PDF vetorial (`jsPDF`)** com alternância Retrato/Paisagem.
-- **UX, Acessibilidade & PWA:** 3 temas sincronizados (Deep Indigo, Claro e Escuro), colunas redimensionáveis persistidas em `localStorage`, Central de Acessibilidade Visual (`Alt + A`) com **Síntese de Voz (TTS pt-BR)**, Service Worker e Open Graph dinâmico.
-
-#### ⚙️ Engenharia de Backend & Multi-Banco (`Node.js + Express + PostgreSQL`)
-- **50+ Endpoints REST & Segurança:** autenticação **JWT**, criptografia **bcrypt**, middleware granular **RBAC** (Leitura/Escrita/Sem Acesso), proteção contra força bruta (`HTTP 429` após 5 falhas) e trilha completa de **Logs de Auditoria** em `JSONB`.
-- **Multi-Tenancy & Roteamento Multi-Banco Online:** isolamento por `empresa_id`, cache dinâmico de pools por cliente (`getPoolForEmpresa`) e testador/provisionador para **PostgreSQL, MySQL/MariaDB, MongoDB Atlas e SQL Server** via Connection String (URI) com SSL/TLS automático.
-- **Resiliência 24/7:** build Docker multi-stage unificado, inicialização com retry (`initDbWithRetry`) e `UNNEST` batching em 10 tabelas relacionais.
-
-<p>
-  <a href="https://regz-app.onrender.com/Regz">
-    <img src="https://img.shields.io/badge/Acessar_Sistema_Online-24%2F7-10b981?style=for-the-badge&logo=render&logoColor=white" alt="Acessar Online" />
-  </a>
-  <a href="https://github.com/RROliSil/regz">
-    <img src="https://img.shields.io/badge/Ver_Repositório-RROliSil%2Fregz-6366F1?style=for-the-badge&logo=github&logoColor=white" alt="Repositório Regz" />
-  </a>
-  <a href="https://github.com/RROliSil/regz/blob/main/README.en.md">
-    <img src="https://img.shields.io/badge/Docs-English-0EA5E9?style=for-the-badge" alt="English Docs" />
-  </a>
-</p>
-
-</details>
-
----
 
 <!-- ========================================================= -->
 <!-- CARD 2: ROGUE FROG                                        -->
 <!-- ========================================================= -->
-<details>
-<summary>
-  <strong>🐸 Rogue Frog — Roguelike Arcade Mobile (Android)</strong>
-  <br/>
-  Jogo arcade dinâmico publicado na Google Play Store com mecânicas de Roguelike, biomas e chefes.
-  <br/>
-  <img src="https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white" alt="Android" />
-  <img src="https://img.shields.io/badge/Capacitor_7-119EFF?style=flat-square&logo=capacitor&logoColor=white" alt="Capacitor 7" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/Google_Play-Publicado-34A853?style=flat-square&logo=google-play&logoColor=white" alt="Google Play" />
-  <br/>
-  <sub><i>🔽 Clique para abrir as descrições detalhadas</i></sub>
-</summary>
-
-<br/>
-
-> Um jogo arcade desafiador para Android que une a precisão clássica de desvio com mecânicas modernas de **Roguelike**, evolução de habilidades, biomas dinâmicos e batalhas épicas contra chefes!
-
-- ⚡ **Progressão Roguelike:** melhorias temporárias e permanentes a cada corrida.
-- 👹 **Batalhas de Chefes:** padrões de ataque únicos e desafiadores.
-- 🌍 **Tradução Global:** suporte nativo para Português, Inglês e Espanhol.
-- 🏆 **Integração Google Play Games:** placares mundiais e conquistas sincronizadas.
-- 📳 **Imersão Háptica:** resposta tátil para pulos, acertos e impactos.
-
-<p align="center">
-  <a href="https://play.google.com/store/apps/details?id=com.flappyfrog.game">
-    <img src="https://raw.githubusercontent.com/RROliSil/RROliSil/main/assets/PrintBanner2.png" width="420" alt="Rogue Frog Screenshot" />
-  </a>
-</p>
-
-<p>
-  <a href="https://play.google.com/store/apps/details?id=com.flappyfrog.game">
-    <img src="https://img.shields.io/badge/Baixar_no-Google_Play-green?style=for-the-badge&logo=google-play&logoColor=white" alt="Play Store" />
-  </a>
-  <a href="https://github.com/RROliSil/rrolisil.github.io">
-    <img src="https://img.shields.io/badge/Website_Oficial-GitHub_Pages-1E293B?style=for-the-badge&logo=github&logoColor=white" alt="Site Oficial" />
-  </a>
-</p>
-
-</details>
+<table width="100%">
+  <tr>
+    <td>
+      <details>
+        <summary>
+          <img src="https://raw.githubusercontent.com/RROliSil/RROliSil/main/assets/PrintBanner2.png" width="52" align="absmiddle" alt="Rogue Frog Logo" />
+          &nbsp;<strong>Rogue Frog — Roguelike Arcade Mobile (Android)</strong>
+          <br/><br/>
+          Jogo arcade dinâmico publicado na Google Play Store que une precisão clássica de desvio com mecânicas de Roguelike, biomas e chefes.
+          <br/><br/>
+          <img src="https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white" alt="Android" />
+          <img src="https://img.shields.io/badge/Capacitor_7-119EFF?style=flat-square&logo=capacitor&logoColor=white" alt="Capacitor 7" />
+          <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
+          <img src="https://img.shields.io/badge/Google_Play-Publicado-34A853?style=flat-square&logo=google-play&logoColor=white" alt="Google Play" />
+          <img src="https://img.shields.io/badge/%F0%9F%94%BD_Ver_detalhes_completos-1E293B?style=flat-square" alt="Ver detalhes" />
+        </summary>
+        <br/>
+        <hr/>
+        <p>
+          Um jogo arcade desafiador para Android que une a precisão clássica de desvio com mecânicas modernas de <b>Roguelike</b>, evolução de habilidades, biomas dinâmicos e batalhas épicas contra chefes!
+        </p>
+        <ul>
+          <li>⚡ <b>Progressão Roguelike:</b> melhorias temporárias e permanentes a cada corrida.</li>
+          <li>👹 <b>Batalhas de Chefes:</b> padrões de ataque únicos e desafiadores.</li>
+          <li>🌍 <b>Tradução Global:</b> suporte nativo para Português, Inglês e Espanhol.</li>
+          <li>🏆 <b>Integração Google Play Games:</b> placares mundiais e conquistas sincronizadas.</li>
+          <li>📳 <b>Imersão Háptica:</b> resposta tátil para pulos, acertos e impactos.</li>
+        </ul>
+        <p align="center">
+          <a href="https://play.google.com/store/apps/details?id=com.flappyfrog.game">
+            <img src="https://raw.githubusercontent.com/RROliSil/RROliSil/main/assets/PrintBanner2.png" width="420" alt="Rogue Frog Screenshot" />
+          </a>
+        </p>
+        <p>
+          <a href="https://play.google.com/store/apps/details?id=com.flappyfrog.game">
+            <img src="https://img.shields.io/badge/Baixar_no-Google_Play-green?style=for-the-badge&logo=google-play&logoColor=white" alt="Play Store" />
+          </a>
+          <a href="https://github.com/RROliSil/rrolisil.github.io">
+            <img src="https://img.shields.io/badge/Website_Oficial-GitHub_Pages-1E293B?style=for-the-badge&logo=github&logoColor=white" alt="Site Oficial" />
+          </a>
+        </p>
+      </details>
+    </td>
+  </tr>
+</table>
 
 ---
 
